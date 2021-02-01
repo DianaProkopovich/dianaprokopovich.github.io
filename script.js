@@ -7,3 +7,8 @@ new WOW().init();
 console.log('here!');
 
 //отправка на почту
+// $(document).ready(function() {
+//     $(window).scroll(function(){
+//         const nav = 
+//     })
+// })
