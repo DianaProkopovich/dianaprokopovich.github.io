@@ -392,6 +392,7 @@ height:80%;
     justify-content: center;
     align-items: center;
     margin-bottom:  100px;
+    margin-top: 100px;
 }
 .feedback__header {
     color:rgb(194, 176, 155);
@@ -438,6 +439,35 @@ height:80%;
     background-color: rgb(248, 234, 210);
     color: rgb(214, 139, 0);
 
+}
+/* feedback */
+.addreses {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.address {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 350px;
+    background-color:#8C0303;
+    padding: 40px;
+    padding-top: 64px;
+    color: rgb(194, 176, 155);
+    margin-left: 50px;
+    border-bottom: rgb(194, 176, 155) 2px solid;
+}
+.address h3 {
+    font-size: 24px;
+}
+.address i {
+    font-size: 24px;
+    justify-self: start;
+    position: absolute;
+    top: 20px;
 }
 /* footer */
 .footer {
