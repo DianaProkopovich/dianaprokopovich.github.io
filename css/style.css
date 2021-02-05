@@ -538,4 +538,6 @@ color:rgb(255, 255, 255);
 border-color: rgb(255, 255, 255);
 text-decoration: none;
 }
-
+.fotorama__thumb-border {
+    border:  rgb(194, 176, 155) solid 1px;
+}
