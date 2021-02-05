@@ -190,6 +190,8 @@
     margin: 0 auto;
     color: rgb(236, 137, 25);
     font-size: 70px;
+    position: relative;
+    z-index: 5;
 }
 .show-description {
     color:rgb(255, 255, 255);
@@ -211,6 +213,8 @@
     border-radius: 20px;
     cursor: pointer;
     font-weight: 500;
+    position: relative;
+    z-index: 5;
 }
 .show-orderButton:hover {
     background-color: rgb(240, 222, 202);
@@ -219,6 +223,16 @@
 }
 .show {
     padding-top: 200px;
+    position: relative;
+}
+.blur {
+    position: absolute;
+    width: 100%;
+    height: calc(100% + 2px);
+    top: -2px;
+    left: 0;
+    background-color: rgba(32, 31, 31, 0.459);
+    z-index: 0;
 }
 /* blocks */
 body {
@@ -401,6 +415,9 @@ height:80%;
 .feedbackForm {
     display: inline-block;
     margin: 0 auto;
+    border: rgb(194, 176, 155) solid 1px;
+    margin-top: 50px;
+    padding: 30px 20px 70px 20px;
 }
 .feedbackForm label {
     display: block;
@@ -417,6 +434,7 @@ height:80%;
     margin-bottom: 1.5em;
     border: none;
     outline: none;
+    border-radius: 25px;
 }
 .feedbackInput:focus {
     background-color: rgb(255, 232, 206);
@@ -433,6 +451,7 @@ height:80%;
     background-color: rgb(236, 137, 25);
     border: none;
     outline: none;
+    border-radius: 25px;
 }
 
 .feedbackForm__submit:hover {
@@ -450,7 +469,7 @@ height:80%;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-basis: 350px;
     background-color:#8C0303;
@@ -459,15 +478,20 @@ height:80%;
     color: rgb(194, 176, 155);
     margin-left: 50px;
     border-bottom: rgb(194, 176, 155) 2px solid;
+    flex-basis: 250px;
 }
 .address h3 {
     font-size: 24px;
 }
 .address i {
     font-size: 24px;
+    width: 24px;
+    height: 24px;
     justify-self: start;
     position: absolute;
     top: 20px;
+    text-align: center;
+    vertical-align: bottom;
 }
 /* footer */
 .footer {
@@ -501,6 +525,7 @@ display: none;
 margin-block-start: 10px;
 margin-block-end: 0;
 display: flex;
+list-style: none;
 }
 .footer_social a {
 display: inline-block;
