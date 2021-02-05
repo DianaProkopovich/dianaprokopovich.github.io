@@ -12,3 +12,6 @@ console.log('here!');
 //         const nav = 
 //     })
 // })
+$('.fotorama').fotorama({
+transition: 'crossfade',
+});
