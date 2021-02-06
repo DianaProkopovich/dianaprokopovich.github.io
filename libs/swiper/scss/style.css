@@ -11,6 +11,7 @@
 	 padding: 0;
 }
  .swiper-container {
+	 margin-top: 100px;
 	 width: 50%;
 	 height: 600px;
 	 float: left;
