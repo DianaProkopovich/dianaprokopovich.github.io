@@ -244,6 +244,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    margin-bottom: 170px;
 }
 .post-item {
     flex-basis: 30%;
@@ -341,7 +342,7 @@ body {
 .features-header {
     display: block;
     color: rgb(194, 176, 155);
-    margin-top: 300px;
+    margin-top: 385px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -556,4 +557,7 @@ text-decoration: none;
     position: fixed;
     top: 0;
     z-index: 200;
+}
+.swiper-wrapper {
+    width: 800px;
 }
