@@ -170,6 +170,7 @@
     align-items: flex-start;
 }
 .description {
+    margin-top:  100px;
     margin-left: 55px;
     flex-basis: 35%;
     color: white;
