@@ -229,9 +229,9 @@
 .blur {
     position: absolute;
     width: 100%;
-    height: calc(100% + 2px);
-    top: -2px;
+    height: 100%;
     left: 0;
+    top: 80px;
     background-color: rgba(32, 31, 31, 0.459);
     z-index: 0;
 }
