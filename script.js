@@ -6,12 +6,17 @@ $('[data-fancybox="gallery"]').fancybox({
 new WOW().init();
 console.log('here!');
 
-//отправка на почту
-// $(document).ready(function() {
-//     $(window).scroll(function(){
-//         const nav = 
-//     })
-// })
-$('.fotorama').fotorama({
-transition: 'crossfade',
-});
+$(document).ready(function() {
+    const navOffset = $('#menu').offset().top;
+    const socialsOffset = $('#socials').offset().top
+    $(window).scroll(function(){
+        const scrolled = $(this).scrollTop();
+        if (scrolled > navOffset) {
+            $('#nav').addClass('menu-fixed');
+            $('#socials-wrapper').addClass('socials-fixed')
+        } else if (scrolled < navOffset) {
+            $('#nav').removeClass('menu-fixed');
+            $('#socials-wrapper').removeClass('socials-fixed');
+        } 
+    });
+})

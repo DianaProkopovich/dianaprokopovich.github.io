@@ -21,7 +21,8 @@
 <body>
     <div class="fullscreen-bg">
     <div class="overlay"></div>
-    <video loop="true" muted="true" autoplay="" poster="video/plane.jpg" class="fullscreen-bg__video">
+    TODO: poster delete
+    <video loop="true" muted="true" autoplay="" class="fullscreen-bg__video">
         <source src="./video/flame.mp4" type="video/mp4">
         <source src="./video/flame.webm" type="video/webm">
         <source src="./video/flame.ogg" type="video/ogg">
@@ -29,8 +30,8 @@
     </div>
     <div class="s">
         <div class="logo"><img src="./img/logo.png" alt="logo" class="logoImg"></div>
-        <nav class="mainMenu">
-            <div class="socials">
+        <nav class="socials-wrapper" id="socials-wrapper">
+            <div class="socials" id="socials">
                 <a href="#" class="phoneNumber">+ 375291151560 </a>
                 <a href="" class="socials-link">
                     <icon class="socials-icon"><i class="fab fa-viber"></i></icon>
@@ -42,8 +43,9 @@
                     <i class="fab fa-telegram-plane"></i>
                 </a>
             </div>
-        </nav>ы
-        <ul class="menu-wrapper">
+        </nav>
+        <nav class="mainMenu" id="nav">
+            <ul class="menu-wrapper" id="menu">
                 <li>
                     <a href="#" class="mainMenu-link">Главная</a>
                 </li>
@@ -56,7 +58,8 @@
                 <li>
                     <a href="#contacts" class="mainMenu-link">Контакты</a>
                 </li>
-            </ul>
+                </ul>
+            </nav>
         <div class="header">
             <h1><i class="fas fa-sun header-icon"></i>Sunshine<i class="fas fa-sun header-icon"></i></h1>
             <h2>Световое и огненное шоу</h2>
@@ -87,6 +90,7 @@
             <p class="feature-description">Отточенность движений и мастерство актеров вызывают восторг</p>
         </div>
 </section>
+<a name="programs"></a>
 <section class="My-container">
     <div class="post-wrap">
         <div class="post-item wow animate__animated animate__bounceInUp"  data-wow-duration="1s">
@@ -165,6 +169,7 @@
     Подарите своим гостям самые яркие эмоции!</p>
     <a href="#order" class="show-orderButton"> Заказать </a>
 </section>
+<a name="about"></a>
 <section class="My-container">
 <div class="fotorama" 
 data-width="800" 
@@ -186,10 +191,9 @@ data-thumbheight="100px">
     <img src="img/gallery/galleryImg9.jpg">
     <img src="img/gallery/galleryImg10.jpg">
     <img src="img/gallery/galleryImg11.jpg">
-    <img src="img/gallery/galleryImg12jpg">
+    <img src="img/gallery/galleryImg12.jpg">
 </div>
     <div class="description wow animate__animated animate__bounceInRight">
-        <a name="about"></a>
         <h2>About us</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fuga amet eum doloremque quidem dicta soluta expedita doloribus perferendis optio perspiciatis laboriosam ipsa temporibus consectetur necessitatibus, aut porro unde numquam.
         Possimus error modi voluptate architecto facere libero quae minima cupiditate. Pariatur, cumque aliquid. Quo, excepturi accusantium assumenda quam aspernatur quasi fugit recusandae et exercitationem dolorem similique ipsum beatae, quos libero!
@@ -208,20 +212,29 @@ data-thumbheight="100px">
     Безопасно и эффектно. Ваши гости не смогут оторваться!</p>
     <a href="#order" class="show-orderButton"> Заказать </a></section>
 <section class="My-container">
-    <div class="gallery">
-            <a href="./img/gallery/galleryImg13.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg13.jpg" alt="Миниатюра 1" /></a>
-            <a href="./img/gallery/galleryImg14.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg14.jpg" alt="Миниатюра 2" /></a>
-            <a href="./img/gallery/galleryImg15.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg15.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg16.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg16.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg17.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg17.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg18.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg18.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg19.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg19.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg20.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg20.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg21.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg21.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg22.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg22.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg23.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg23.jpg" alt="Миниатюра 3" /></a>
-            <a href="./img/gallery/galleryImg24.jpg" rel="group1" data-fancybox="gallery" class="gallery-item"><img class="gallery-img" src="./img/gallery/galleryImg24.jpg" alt="Миниатюра 3" /></a>
-            
+<div class="fotorama" 
+data-width="800" 
+data-height="600" 
+data-nav="thumbs" 
+data-allowfullscreen="true"
+data-transition="crossfade"
+data-loop="true"
+data-thumbwidth="150px"
+data-thumbheight="100px">
+
+    <img src="img/gallery/galleryImg13.jpg">
+    <img src="img/gallery/galleryImg14.jpg">
+    <img src="img/gallery/galleryImg15.jpg">
+    <img src="img/gallery/galleryImg16.jpg">
+    <img src="img/gallery/galleryImg17.jpg">
+    <img src="img/gallery/galleryImg18.jpg">
+    <img src="img/gallery/galleryImg19.jpg">
+    <img src="img/gallery/galleryImg20.jpg">
+    <img src="img/gallery/galleryImg21.jpg">
+    <img src="img/gallery/galleryImg22.jpg">
+    <img src="img/gallery/galleryImg23.jpg">
+    <img src="img/gallery/galleryImg24.jpg">
+</div>
     </div>
     <div class="description wow animate__animated animate__bounceInRight">
         <h2>About us</h2>
@@ -259,9 +272,9 @@ data-thumbheight="100px">
     </p>
     <a href="#order" class="show-orderButton"> Заказать </a>
 </section>
-
+<a name="order"></a>
+<a name="contacts"></a>
 <section class="feedback">
-    <a name="order"></a>
     <p class="feedback__header">Оставьте ваши контакты, и мы обязательно свяжемся с Вами</p>
     <form action="" class="feedbackForm" id= "feedbackForm">
             <label for=""> Ваше имя  </label> 
@@ -276,8 +289,8 @@ data-thumbheight="100px">
             Отправить
         </button>
     </form>
+
 <section class="addreses">
-    <a name="contacts"></a>
     <div class="address">
         <i class="fas fa-map-marked address__icon"></i>
         <h3 class="address__header">Адрес</h3>
@@ -307,10 +320,10 @@ data-thumbheight="100px">
     </div>
     <nav class="footer_menu">
     <ul>
-        <li><a href="programs.html"> <i class="fab fa-gripfire"></i> <span>Программы</span></a></li>
-        <li><a href="gallery.html"> <i class="far fa-image"></i> <span>Галерея</span></a></li>
-        <li><a href="prices.html"> <i class="fas fa-dollar-sign"></i> <span>Цены</span></a></li>
-        <li><a href="contacts"> <i class="fas fa-phone"></i><span> Контакты</span></a></li>
+        <li><a href="#programs"> <i class="fab fa-gripfire"></i> <span>Программы</span></a></li>
+        <li><a href="#about"> <i class="far fa-image"></i> <span>Галерея</span></a></li>
+        <li><a href="#video"> <i class="fas fa-dollar-sign"></i> <span>Видео</span></a></li>
+        <li><a href="#contacts"> <i class="fas fa-phone"></i><span> Контакты</span></a></li>
     </ul>
     </nav>
     <div class="footer_social">

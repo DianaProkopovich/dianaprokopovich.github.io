@@ -91,7 +91,7 @@
     background: transparent;
 }
 /* Menu */
-.mainMenu {
+.socials-wrapper {
     display: flex;
     z-index: 5;
     width: 100%;
@@ -341,7 +341,7 @@ body {
 .features-header {
     display: block;
     color: rgb(194, 176, 155);
-    margin-top: 230px;
+    margin-top: 300px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -513,6 +513,7 @@ text-align: center;
 box-sizing: border-box;
 font-size: 80%;
 padding: 5px;
+padding-left: 10px;
 margin-left: 25px;
 font-size: 16px;
 border: 3px hidden rgba(80, 4, 31, 0.6);
@@ -539,5 +540,20 @@ border-color: rgb(255, 255, 255);
 text-decoration: none;
 }
 .fotorama__thumb-border {
-    border:  rgb(194, 176, 155) solid 1px;
+    border:  rgb(194, 176, 155) solid 0.5px;
+}
+.menu-fixed .menu-wrapper {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    position: fixed;
+    top: 0;
+    transition: background-color 1s;
+    z-index: 150;
+}
+.socials-fixed .socials-wrapper {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 200;
 }
