@@ -169,6 +169,7 @@ position: relative;
     display: flex;
     width: 80%;    
     margin: 50px auto;
+    padding-top: 50px;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -496,7 +497,7 @@ height:80%;
     background: linear-gradient(to bottom right,#cc8112, #c23e0e);
     padding: 40px;
     padding-top: 64px;
-    color: rgb(194, 176, 155);
+    color: rgb(216, 195, 172);
     font-weight: 500;
     margin-left: 50px;
     border-bottom: rgb(194, 176, 155) 2px solid;
@@ -514,6 +515,9 @@ height:80%;
     top: 20px;
     text-align: center;
     vertical-align: bottom;
+}
+.address__text {
+    font-size: 18px;
 }
 /* footer */
 .footer {
@@ -579,6 +583,10 @@ text-decoration: none;
 .parallax-mirror {
     filter: brightness(70%);
     margin: 50px auto;
+
+}
+.parallax-window {
+    margin-bottom: 50px;
 }
 .swiper-container {
     margin-top: 100px;
