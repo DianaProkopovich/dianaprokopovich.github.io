@@ -258,7 +258,7 @@ body {
 .item-content {
     /* background: linear-gradient(to bottom right, #191b20, #000000); */
     background: linear-gradient(to bottom right,#cc8112, #c23e0e);
-    filter: brightness(80%);
+    /* filter: brightness(80%); */
     background-color: rgb(22, 21, 21);
     box-shadow:  5px 0px 5px 5px #f7a11f63;
     padding: 40px;
@@ -404,6 +404,7 @@ height:80%;
 /* Price*/
 
 .price-list {
+    display: inline-flex;
     color:  rgb(194, 176, 155);
     margin: 50px auto;
     margin-top: 180px;
@@ -411,14 +412,20 @@ height:80%;
     font-size: 24px;
     padding-left: 50px;
     margin-bottom: 50px;
+    justify-content: space-evenly;
 }
 .price-list__tittle {
     margin: 20px;
 }
+.price-depends {
+flex-basis: 50%;
+}
+.price {
+flex-basis: 30%;
+}
 .price_row {
     border-bottom: 1px solid rgb(194, 176, 155);
     padding: 1em;
-    width: 50%;
     margin: 20px;
 }
 
