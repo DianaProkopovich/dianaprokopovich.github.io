@@ -38,7 +38,7 @@
     z-index: 4;
     display: block;
     position: absolute;
-    top: 68%;
+    top: 65%;
 }
 
 .header h2::before {
@@ -169,7 +169,6 @@ position: relative;
     display: flex;
     width: 80%;    
     margin: 80px auto;
-    margin-bottom: 80px;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -480,6 +479,7 @@ height:80%;
     padding: 40px;
     padding-top: 64px;
     color: rgb(194, 176, 155);
+    font-weight: 500;
     margin-left: 50px;
     border-bottom: rgb(194, 176, 155) 2px solid;
     flex-basis: 250px;
