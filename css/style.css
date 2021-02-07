@@ -168,7 +168,7 @@ position: relative;
     position: relative;
     display: flex;
     width: 80%;    
-    margin: 80px auto;
+    margin: 50px auto;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -238,8 +238,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 170px;
+    margin-top: 70px auto;
 }
 .post-item {
     flex-basis: 30%;
@@ -560,6 +559,7 @@ text-decoration: none;
 } */
 .parallax-mirror {
     filter: brightness(70%);
+    margin-top: 50px;
 }
 .swiper-container {
     margin-top: 100px;
