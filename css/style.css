@@ -38,7 +38,7 @@
     z-index: 4;
     display: block;
     position: absolute;
-    top: 50%;
+    top: 68%;
 }
 
 .header h2::before {
@@ -58,6 +58,12 @@
     font-size: 50px;
     text-align: center;
 }
+.title {
+    margin-top: 150px;
+}
+.title h2 {
+    margin-bottom: 50px;
+}
 .logo {
     position: absolute;
     top: 20px;
@@ -68,24 +74,6 @@
     width: 150px;
     height: 150px;
 }
-.orderCallBtn, .countCostBtn {
-    padding: 0.5em;
-    color:  rgb(194, 176, 155);
-    font-weight: 500;
-    display: inline-block;
-    margin: 50px auto;
-    text-align: center;
-    font-size: 28px;
-    border:  rgb(194, 176, 155) 1px solid;
-    margin-left: calc(50% - 150px);
-    width: 300px;
-} 
-.orderCallBtn:hover {
-    background-color: #D95323;
-    text-decoration: none;
-    color:  rgb(194, 176, 155);
-}
-
 .parallax-window {
     min-height: 700px;
     background: transparent;
@@ -225,7 +213,7 @@ position: relative;
     width: 250px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 0.5em;
     border-radius: 25px;
     cursor: pointer;
