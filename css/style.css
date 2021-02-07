@@ -226,7 +226,7 @@ position: relative;
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
-    padding: 0.3em;
+    padding: 0.5em;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 500;
@@ -234,7 +234,7 @@ position: relative;
     z-index: 5;
 }
 .show-orderButton:hover {
-    background-color: rgb(240, 222, 202);
+    background: linear-gradient(to bottom right,rgb(241, 219, 193), rgb(195, 170, 140));
     color: rgb(236, 137, 25);
     text-decoration: none;
 }
