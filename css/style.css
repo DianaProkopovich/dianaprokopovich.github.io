@@ -38,7 +38,7 @@
     z-index: 4;
     display: block;
     position: absolute;
-    top: 65%;
+    top: 62%;
 }
 
 .header h2::before {
@@ -220,6 +220,9 @@ position: relative;
     font-weight: 500;
     position: relative;
     z-index: 5;
+}
+.button-primary {
+    margin-top: 100px;
 }
 .show-orderButton:hover {
     background: linear-gradient(to bottom right,rgb(241, 219, 193), rgb(195, 170, 140));
