@@ -265,7 +265,9 @@ body {
     transition: .3s linear;
 }
 .item-content {
-    background: linear-gradient(to bottom right, #191b20, #000000);
+    /* background: linear-gradient(to bottom right, #191b20, #000000); */
+    background: linear-gradient(to bottom right,#cc8112, #c23e0e);
+    filter: brightness(80%);
     background-color: rgb(22, 21, 21);
     box-shadow:  5px 0px 5px 5px #f7a11f63;
     padding: 40px;
@@ -568,4 +570,7 @@ text-decoration: none;
 } */
 .parallax-mirror {
     filter: brightness(70%);
+}
+.swiper-container {
+    margin-top: 100px;
 }
