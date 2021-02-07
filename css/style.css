@@ -396,6 +396,25 @@ left:10%;
 width:80%;
 height:80%;
 }
+/* Price*/
+
+.price-list {
+    color:  rgb(194, 176, 155);
+    margin: 50px auto;
+    margin-top: 180px;
+    text-align: center;
+    font-size: 24px;
+}
+.price-list__tittle {
+    margin: 20px auto;
+}
+.price_row {
+    border-bottom: 1px solid rgb(194, 176, 155);
+    padding: 1em;
+    width: 50%;
+    margin: 0 auto;
+}
+
 
 /* feedback section */
 .feedback {
