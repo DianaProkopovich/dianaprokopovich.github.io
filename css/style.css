@@ -219,15 +219,15 @@ position: relative;
 .show-orderButton {
     text-decoration: none;
     display: block;
-    background-color: rgb(236, 137, 25);
+    background: linear-gradient(to bottom right,#cc8112, #c23e0e);
     color: white;
     font-size: 28px;
     width: 250px;
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
-    padding: 0.5em;
-    border-radius: 20px;
+    padding: 0.3em;
+    border-radius: 25px;
     cursor: pointer;
     font-weight: 500;
     position: relative;
@@ -471,7 +471,7 @@ height:80%;
 
 .feedbackForm__submit:hover {
     background: rgb(248, 234, 210);
-    color: #57286b;
+    color: #c23e0e;
 
 }
 /* feedback */
