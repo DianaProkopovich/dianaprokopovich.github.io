@@ -430,7 +430,7 @@ height:80%;
     margin: 0 auto;
     margin-top: 50px;
     padding: 30px 20px 70px 20px;
-    box-shadow:  5px 5px 10px 10px #8d44ad65;
+    box-shadow:  5px 5px 10px 10px #c23e0e;
 }
 .feedbackForm label {
     display: block;
@@ -462,6 +462,7 @@ height:80%;
     padding: 0.5em;
     font-size: 24px;
     background: linear-gradient(to bottom right, #8e44ad, #57286b);
+    background: linear-gradient(to bottom right,#cc8112, #c23e0e);
     border: none;
     outline: none;
     border-radius: 25px;
@@ -486,7 +487,8 @@ height:80%;
     justify-content: flex-start;
     align-items: center;
     flex-basis: 350px;
-    background: linear-gradient(to bottom right, #8e44ad, #57286b);
+    /* background: linear-gradient(to bottom right, #8e44ad, #57286b); */
+    background: linear-gradient(to bottom right,#cc8112, #c23e0e);
     padding: 40px;
     padding-top: 64px;
     color: rgb(194, 176, 155);
